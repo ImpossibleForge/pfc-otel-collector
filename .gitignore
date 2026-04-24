@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pfc
+*.bidx
+*.idx
+*.jsonl
+*.gz
+.env
+.pytest_cache/
+htmlcov/
+.coverage
+dist/
+build/
+*.egg-info/
+/tmp/

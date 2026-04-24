@@ -1,0 +1,24 @@
+# pfc-otel-collector configuration
+# Copy to your working directory and adjust as needed.
+
+[server]
+host    = "0.0.0.0"
+port    = 4318          # standard OTLP/HTTP port
+api_key = ""            # optional Bearer token auth (leave empty to disable)
+
+[buffer]
+rotate_mb  = 64         # rotate when buffer reaches this size (MB)
+rotate_sec = 3600       # rotate after this many seconds even if not full
+output_dir = "/tmp/pfc-otel"   # local directory for .pfc output files
+prefix     = "otel"     # filename prefix: otel_20260115_103000.pfc
+
+[pfc]
+binary = "/usr/local/bin/pfc_jsonl"   # path to pfc_jsonl binary
+
+[s3]
+enabled = false
+bucket  = "my-log-archive"
+prefix  = "otel-logs/"
+region  = "us-east-1"
+# Credentials: use AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY env vars
+# or IAM instance role (recommended for production)
