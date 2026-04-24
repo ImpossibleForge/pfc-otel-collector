@@ -4,7 +4,7 @@
 
 Drop `pfc-otel-collector` in front of any OpenTelemetry Collector pipeline to compress your log exports on arrival — no extra storage step, no conversion script.
 
-[![License](https://img.shields.io/badge/license-PFC%20Commercial%20v1.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Part of PFC-JSONL Ecosystem](https://img.shields.io/badge/ecosystem-PFC--JSONL-brightgreen)](https://github.com/ImpossibleForge/pfc-jsonl)
 
 ---
@@ -240,6 +240,12 @@ pytest tests/ -v
 
 ---
 
+
+---
+
+## Disclaimer
+
+PFC-OTel-Collector is an independent open-source project and is not affiliated with, endorsed by, or associated with the Cloud Native Computing Foundation (CNCF) or the OpenTelemetry project.
 ## License
 
 Free for personal and open-source use.
