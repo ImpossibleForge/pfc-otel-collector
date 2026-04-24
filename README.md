@@ -248,5 +248,6 @@ pytest tests/ -v
 PFC-OTel-Collector is an independent open-source project and is not affiliated with, endorsed by, or associated with the Cloud Native Computing Foundation (CNCF) or the OpenTelemetry project.
 ## License
 
-Free for personal and open-source use.
-Commercial use requires a written license — [info@impossibleforge.com](mailto:info@impossibleforge.com)
+pfc-otel-collector (this repository) is released under the MIT License — see [LICENSE](LICENSE).
+
+The PFC-JSONL binary (`pfc_jsonl`) is proprietary software — free for personal and open-source use. Commercial use requires a license: [info@impossibleforge.com](mailto:info@impossibleforge.com)
