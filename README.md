@@ -235,6 +235,7 @@ pytest tests/ -v
 | [pfc-vector](https://github.com/ImpossibleForge/pfc-vector) | High-performance HTTP ingest daemon |
 | [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | HTTP query gateway |
 | [pfc-migrate](https://github.com/ImpossibleForge/pfc-migrate) | Migrate from gzip/zstd/S3/Azure/GCS |
+| [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) | Kafka / Redpanda consumer |
 | **pfc-otel-collector** | **OpenTelemetry OTLP/HTTP exporter** |
 
 ---
