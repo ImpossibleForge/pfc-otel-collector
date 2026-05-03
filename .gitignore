@@ -13,3 +13,7 @@ dist/
 build/
 *.egg-info/
 /tmp/
+
+# PFC buffer files
+.pfc_buffer.jsonl
+.pfc_buffer.compressing
