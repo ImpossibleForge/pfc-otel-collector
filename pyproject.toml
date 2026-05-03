@@ -7,7 +7,7 @@ name            = "pfc-otel-collector"
 version         = "0.1.0"
 description     = "OpenTelemetry Collector exporter for PFC-JSONL log compression"
 readme          = "README.md"
-license         = { text = "PFC Commercial License v1.0" }
+license         = { text = "MIT" }
 requires-python = ">=3.10"
 keywords        = ["opentelemetry", "otlp", "logs", "compression", "pfc-jsonl", "observability"]
 classifiers = [

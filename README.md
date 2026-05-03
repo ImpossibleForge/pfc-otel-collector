@@ -225,19 +225,14 @@ pytest tests/ -v
 
 ---
 
-## Part of the PFC-JSONL Ecosystem
+## Part of the PFC Ecosystem
 
-| Repo | What it does |
-|------|-------------|
-| [pfc-jsonl](https://github.com/ImpossibleForge/pfc-jsonl) | Core compressor (BWT + rANS) |
-| [pfc-duckdb](https://github.com/ImpossibleForge/pfc-duckdb) | DuckDB community extension |
-| [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) | Native Fluent Bit output plugin |
-| [pfc-vector](https://github.com/ImpossibleForge/pfc-vector) | High-performance HTTP ingest daemon |
-| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | HTTP query gateway |
-| [pfc-migrate](https://github.com/ImpossibleForge/pfc-migrate) | Migrate from gzip/zstd/S3/Azure/GCS |
-| [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) | Kafka / Redpanda consumer |
-| **pfc-otel-collector** | **OpenTelemetry OTLP/HTTP exporter** |
-| [pfc-grafana](https://github.com/ImpossibleForge/pfc-grafana) | Grafana data source plugin for PFC archives |
+**[→ View all PFC tools & integrations](https://github.com/ImpossibleForge/pfc-jsonl#ecosystem)**
+
+| Direct integration | Why |
+|---|---|
+| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | Query the archives pfc-otel-collector creates — HTTP REST, no DuckDB required |
+| [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) | Alternative ingest — native Fluent Bit plugin instead of OTLP |
 
 ---
 
