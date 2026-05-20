@@ -42,13 +42,21 @@ pip install boto3
 ### 2. Download pfc_jsonl binary
 
 ```bash
-# Linux x86_64
-curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-linux-x86_64 \
+# Linux x64
+curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-linux-x64 \
      -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
 
-# macOS ARM64
+# macOS Apple Silicon
 curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-macos-arm64 \
      -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
+
+# macOS Intel
+curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-macos-x64 \
+     -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
+
+# Windows (PowerShell)
+Invoke-WebRequest https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-windows-x64.exe `
+  -OutFile "$env:LOCALAPPDATA\Microsoft\WindowsApps\pfc_jsonl.exe"
 ```
 
 ### 3. Create config
